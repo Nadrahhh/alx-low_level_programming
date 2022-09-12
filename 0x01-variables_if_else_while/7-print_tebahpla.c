@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int revlower;
+	char revlower;
 
 	revlower = 'z';
 	while (revlower >= 'a')
 	{
 		putchar (revlower);
-		revlower++;
+		revlower--;
 	}
 	putchar('\n');
 	return (0);
