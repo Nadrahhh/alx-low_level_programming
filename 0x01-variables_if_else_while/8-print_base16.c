@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int num;
+	char num;
 	int letters;
 
-	num = 0;
+	num = 48;
 	letters = 'a';
-	while (num <= 9)
+	while (num <= 57)
 	{
 		putchar(num);
 		num++;
