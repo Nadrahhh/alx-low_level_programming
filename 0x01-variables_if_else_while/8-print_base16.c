@@ -9,13 +9,20 @@
 int main(void)
 {
 	int num;
+	int letters;
 
 	num = 0;
-	while (num <= 16)
+	letters = 'a';
+	while (num <= 10)
 	{
 		putchar(num);
 		num++;
 	}
-	putchar('\n');
-	return (0);
+		while (letters <= 'f')
+		{
+			putchar(letters);
+			letters++;
+		}
+		putchar('\n');
+		return (0);
 }
