@@ -10,7 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *nadest = dest, *nasrc = src;
+	char *nadest = dest;
 
 	while (*nadest)
 		nadest++;
