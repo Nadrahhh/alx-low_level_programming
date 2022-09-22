@@ -5,7 +5,7 @@
  * @dest: concensinate
  * @src: concentinate
  *
- * Return: 0
+ * Return: concatinated dest string
  */
 
 char *_strcat(char *dest, char *src)
@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 		nadest++;
 		src++;
 	}
-	*nadest = '\n';
+	*nadest = '\0';
 
 	return (dest);
 }
