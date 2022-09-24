@@ -37,9 +37,11 @@ int _strcmp(char *s1, char *s2)
 		}
 		else
 		{
-		       	d = s1[c] - s2[c];
+			d = s1[c] - s2[c];
 			break;
-		}d++;
+			c++;
+		}
+		d++;
 	}
 	return (0);
 }
