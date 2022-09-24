@@ -39,7 +39,6 @@ int _strcmp(char *s1, char *s2)
 		{
 			d = s1[c] - s2[c];
 			break;
-			c++;
 		}
 		d++;
 	}
